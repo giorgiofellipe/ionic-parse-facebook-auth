@@ -1,0 +1,26 @@
+<ion-modal-view>
+  <div class="card">
+    <div class="item item-divider">
+      Login
+    </div>
+    <label class="item item-input">
+      <span class="input-label">Email</span>
+      <input type="email" ng-model="email" id="inputUsername" placeholder="Email"/>
+    </label>
+    <label class="item item-input">
+      <span class="input-label">Password</span>
+      <input type="password" ng-model="password" id="inputPassword" placeholder="Password"/>
+    </label>
+    <label class="item">
+      <button class="button button-block button-positive" ng-click="login()">Log in</button>
+    </label>
+    <label class="item">
+      <button class="button button-block button-positive" ng-click="loginFB()">
+        Log in with Facebook
+      </button>
+    </label>
+    <label class="item">
+      <button class="button button-block button-stable" ng-click="signUpUI()">Register</button>
+    </label>
+  </div>
+</ion-modal-view> 
